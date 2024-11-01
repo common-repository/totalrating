@@ -1,0 +1,19 @@
+{
+  "id": "default-template",
+  "type": "template",
+  "name": "Default template",
+  "description": "The default template of TotalRating.",
+  "author": {
+    "name": "TotalSuite",
+    "url": "https://totalsuite.net"
+  },
+  "url": "https://totalsuite.net",
+  "images": {
+    "icon": "./assets/module/icon.png",
+    "cover": "./assets/module/cover.png"
+  },
+  "version": "1.0.0",
+  "requires": "1.0.0",
+  "builtIn": true,
+  "options": {}
+}

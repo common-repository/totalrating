@@ -1,0 +1,3 @@
+Welcome to TotalRating!
+
+Please refer to https://totalsuite.net/documentation/totalrating/

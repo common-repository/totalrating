@@ -1,0 +1,247 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TotalRating\n"
+"POT-Creation-Date: 2020-11-30 19:40+0100\n"
+"PO-Revision-Date: 2024-04-05 14:49+0100\n"
+"Last-Translator: \n"
+"Language-Team: TotalSuite <support@totalsuite.net>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;esc_html__;esc_html_e;_n;_x;_ex;_nx;_n:1,2;"
+"esc_attr__;esc_attr_e;i18n\n"
+"X-Poedit-SearchPath-0: src\n"
+"X-Poedit-SearchPath-1: views\n"
+"X-Poedit-SearchPath-2: migrations\n"
+"X-Poedit-SearchPath-3: modules\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: modules/extensions/Insights/Concerns/InsightsQueryHelper.php:77
+#: modules/extensions/Insights/Concerns/InsightsQueryHelper.php:114
+msgid "Untitled"
+msgstr "غير معنون"
+
+#: modules/extensions/Popup/Tasks/GetDefaults.php:28
+msgid "Thank you!"
+msgstr "شكراً!"
+
+#: modules/templates/BreakdownTemplate/views/partials/attribute.php:32
+msgid "out of"
+msgstr "من أصل"
+
+#: modules/templates/BreakdownTemplate/views/partials/attribute.php:37
+#: modules/templates/DefaultTemplate/views/partials/attribute.php:39
+#, php-format
+msgid "You can %s your rating."
+msgstr "يمكنك %s تقييمك."
+
+#: modules/templates/BreakdownTemplate/views/partials/attribute.php:38
+#: modules/templates/DefaultTemplate/views/partials/attribute.php:40
+#: src/Tasks/GetExpressions.php:48
+msgid "or"
+msgstr "أو"
+
+#: modules/templates/BreakdownTemplate/views/partials/attribute.php:44
+#: modules/templates/DefaultTemplate/views/partials/attribute.php:46
+msgid "change"
+msgstr "تغيير"
+
+#: modules/templates/BreakdownTemplate/views/partials/attribute.php:51
+#: modules/templates/DefaultTemplate/views/partials/attribute.php:53
+msgid "revoke"
+msgstr "إلغاء"
+
+#: modules/templates/BreakdownTemplate/views/partials/attribute.php:72
+msgid "ratings"
+msgstr "تقييمات"
+
+#: modules/templates/BreakdownTemplate/views/partials/form.php:17
+#: modules/templates/DefaultTemplate/views/partials/form.php:17
+#: src/Tasks/GetExpressions.php:68
+msgid "Your comment"
+msgstr "تعليقك"
+
+#: modules/templates/BreakdownTemplate/views/partials/form.php:22
+#: modules/templates/DefaultTemplate/views/partials/form.php:22
+#: src/Tasks/GetExpressions.php:78
+msgid "Submit"
+msgstr "أرسل"
+
+#: modules/templates/DefaultTemplate/views/partials/attribute.php:62
+#: src/Tasks/GetExpressions.php:63
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: src/Entities/Resolvers/CommentsResolver.php:37
+#: src/Tasks/GetExpressions.php:73
+msgid "Comment"
+msgstr "تعليق"
+
+#: src/Models/Attribute.php:232
+msgid "{{votesStd}} vote"
+msgid_plural "{{votesStd}} votes"
+msgstr[0] "ولا صوت"
+msgstr[1] "صوت واحد"
+msgstr[2] "صوتان"
+msgstr[3] "{{votesStd}} أصوات"
+msgstr[4] "{{votesStd}} صوت"
+msgstr[5] "{{votesStd}} صوت"
+
+#: src/Models/Attribute.php:241
+msgid "{{avgStd}} out of {{scale}}"
+msgstr "‫{{avgStd}} من أصل {{scale}}"
+
+#: src/Models/Attribute.php:246
+msgid "Rated {{rate}}"
+msgstr "مقيم {{rate}}"
+
+#: src/Models/Attribute.php:250
+msgid "based on {{votesStdWithLabel}}"
+msgstr "على أساس {{votesStdWithLabel}}"
+
+#: src/Models/Attribute.php:255
+msgid "{{votes}}"
+msgstr "{{votes}}"
+
+#: src/Models/Rating.php:108 src/Models/Rating.php:109
+#: src/Models/Rating.php:110
+msgid "Unknown"
+msgstr "غير معروف"
+
+#: src/Pages/Dashboard.php:23
+msgid "Dashboard"
+msgstr "لوحة التحكم"
+
+#: src/Pages/Dashboard.php:24
+msgid "Widgets"
+msgstr "مربعات التقييم"
+
+#: src/Pages/Dashboard.php:25
+msgid "Templates"
+msgstr "القوالب"
+
+#: src/Pages/Dashboard.php:26
+msgid "Extensions"
+msgstr "الإضافات"
+
+#: src/Pages/Dashboard.php:27
+msgid "Options"
+msgstr "الخيارات"
+
+#: src/Pages/Dashboard.php:28
+msgid "Support"
+msgstr "الدعم"
+
+#: src/Pages/Dashboard.php:80
+msgid "TotalRating"
+msgstr "TotalRating"
+
+#: src/Tasks/GetExpressions.php:32
+#, php-format
+msgid "%s vote"
+msgstr "%s صوت"
+
+#: src/Tasks/GetExpressions.php:33
+#, php-format
+msgid "%s votes"
+msgstr "%s صوت"
+
+#: src/Tasks/GetExpressions.php:38
+msgid "Rated %g based on %s"
+msgstr "مقَيم %g على أساس %s"
+
+#: src/Tasks/GetExpressions.php:43
+#, php-format
+msgid "You can %s or %s your rating."
+msgstr "يمكنك %s أو %s تقييمك."
+
+#: src/Tasks/GetExpressions.php:53
+msgid "Change"
+msgstr "تغيير"
+
+#: src/Tasks/GetExpressions.php:58
+msgid "Revoke"
+msgstr "سحب"
+
+#: src/Tasks/Rating/ExportCsv.php:52
+msgid "ID"
+msgstr "معرف"
+
+#: src/Tasks/Rating/ExportCsv.php:53
+msgid "User"
+msgstr "المستخدم"
+
+#: src/Tasks/Rating/ExportCsv.php:54
+msgid "Entity type"
+msgstr "النوع"
+
+#: src/Tasks/Rating/ExportCsv.php:55
+msgid "Entity name"
+msgstr "الاسم"
+
+#: src/Tasks/Rating/ExportCsv.php:56
+msgid "Entity URL"
+msgstr "الرابط"
+
+#: src/Tasks/Rating/ExportCsv.php:57
+msgid "Attribute"
+msgstr "الخاصية"
+
+#: src/Tasks/Rating/ExportCsv.php:58
+msgid "Point"
+msgstr "النقطة"
+
+#: src/Tasks/Rating/ExportCsv.php:59
+msgid "Value"
+msgstr "القيمة"
+
+#: src/Tasks/Rating/ExportCsv.php:60
+msgid "Created at"
+msgstr "أنشئت بتاريخ (التوقيت العالمي)"
+
+#: src/Tasks/Rating/ExportCsv.php:61
+msgid "Status"
+msgstr "الحالة"
+
+#: src/Tasks/Rating/ExportCsv.php:62
+msgid "IP"
+msgstr "عنوان  IP"
+
+#: src/Tasks/Rating/ExportCsv.php:63
+msgid "User agent"
+msgstr "المتصفح"
+
+#: src/Tasks/Rating/ExportCsv.php:64
+msgid "Context"
+msgstr "السياق"
+
+#: src/Tasks/Widget/PreviewWidget.php:39
+msgid "Sorry you are not allowed to preview this widget."
+msgstr "عذرا لا يمكنك معاينة هذا التقييم."
+
+#: src/Tasks/Widget/RenderWidget.php:92
+#: src/Tasks/Widget/RenderWidgetResults.php:86
+#, php-format
+msgid "Powered by %s"
+msgstr "مشغل بواسطة %s"
+
+#: views/view.php:98
+msgid ""
+"This widget is disabled. You need to enable it to make it publicly "
+"accessible."
+msgstr "هذا التقييم معطل. ستحتاج تفعيله لتجعله متاح للعامة."
+
+#~ msgid "id"
+#~ msgstr "معرف"
+
+#~ msgid "user"
+#~ msgstr "المستخدم"
+
+#~ msgid "ip"
+#~ msgstr "عنوان  IP"

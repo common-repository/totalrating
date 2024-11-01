@@ -1,0 +1,57 @@
+{
+  "calculations": {
+    "roundingDecimal": 2
+  },
+  "privacy": {
+    "hashIP": false,
+    "hashAgent": false,
+    "honorDNT": false
+  },
+  "advanced": {
+    "cacheCompatibility": true,
+    "recaptcha": {
+      "enabled": false,
+      "key": "",
+      "secret": "",
+      "threshold": 0.5
+    }
+  },
+  "expressions": {
+    "%s vote": {
+      "translations": []
+    },
+    "%s votes": {
+      "translations": []
+    },
+    "Rated %s based on %s": {
+      "translations": []
+    },
+    "You can %s or %s your rating.": {
+      "translations": []
+    },
+    "Change": {
+      "translations": []
+    },
+    "Revoke": {
+      "translations": []
+    },
+    "Cancel": {
+      "translations": []
+    },
+    "Your comment": {
+      "translations": []
+    },
+    "Comment": {
+      "translations": []
+    },
+    "Submit": {
+      "translations": []
+    }
+  },
+  "general": {
+    "showCredits": false
+  },
+  "uninstall": {
+    "wipeOnUninstall": false
+  }
+}

@@ -1,0 +1,474 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TotalRating\n"
+"POT-Creation-Date: 2023-10-19 20:56+0200\n"
+"PO-Revision-Date: 2024-02-02 20:26+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 "
+"|| n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: plugin.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: modules/extensions/Insights/Concerns/InsightsQueryHelper.php:79
+#: modules/extensions/Insights/Concerns/InsightsQueryHelper.php:116
+#: src/Metaboxes/RatingMetabox.php:133
+msgid "Untitled"
+msgstr "Bez tytułu"
+
+#: modules/extensions/Popup/Tasks/GetDefaults.php:30
+msgid "Thank you!"
+msgstr "Dzięki!"
+
+#: modules/templates/DefaultTemplate/views/widget.php:119
+msgid "Your comment..."
+msgstr "Twój komentarz..."
+
+#: modules/templates/DefaultTemplate/views/widget.php:124
+#: src/Tasks/GetExpressions.php:80
+msgid "Submit"
+msgstr "Prześlij"
+
+#: modules/templates/DefaultTemplate/views/widget.php:134
+#: src/Tasks/GetExpressions.php:50
+msgid "or"
+msgstr "lub"
+
+#: modules/templates/DefaultTemplate/views/widget.php:140
+msgid "change"
+msgstr "zmień"
+
+#: modules/templates/DefaultTemplate/views/widget.php:147
+msgid "revoke"
+msgstr "cofnij"
+
+#: modules/templates/DefaultTemplate/views/widget.php:153
+#, php-format
+msgid "You can %s your rating."
+msgstr "Możesz %s swojej oceny."
+
+#: modules/templates/DefaultTemplate/views/widget.php:162
+#: src/Tasks/GetExpressions.php:65
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: src/Admin/EntityFilter.php:98
+msgid "Avg. rating"
+msgstr "Średnia ocena"
+
+#: src/Admin/EntityFilter.php:100
+msgid "Points"
+msgstr "Punkty"
+
+#: src/Admin/EntityFilter.php:148
+msgid "Sort by ratings"
+msgstr "Sortuj według ocen"
+
+#: src/Admin/EntityFilter.php:189
+msgid "Reset sorting"
+msgstr "Reset sorting"
+
+#: src/Admin/EntityFilter.php:233
+msgid "Average"
+msgstr "Średnia"
+
+#: src/Admin/EntityFilter.php:248
+#, php-format
+msgid "Sort by %s (%s)"
+msgstr "Sortuj według %s (%s)"
+
+#: src/Entities/Resolvers/CommentsResolver.php:39
+#: src/Tasks/GetExpressions.php:75 src/Tasks/Rating/ExportCsv.php:62
+msgid "Comment"
+msgstr "Komentarz"
+
+#: src/Metaboxes/RatingMetabox.php:105 src/ServiceProvider.php:75
+msgid "Ratings"
+msgstr "Oceny"
+
+#: src/Models/Attribute.php:246
+msgid "{{votesStd}} vote"
+msgid_plural "{{votesStd}} votes"
+msgstr[0] "{{votesStd}} głos"
+msgstr[1] "{{votesStd}} głosy"
+msgstr[2] "{{votesStd}} głosów"
+
+#: src/Models/Attribute.php:259
+msgid "{{avgStd}} out of {{scale}}"
+msgstr "{{avgStd}} z {{scale}}"
+
+#: src/Models/Attribute.php:263
+msgid "Rated {{rate}}"
+msgstr "Oceniono {{rate}}"
+
+#: src/Models/Attribute.php:265
+msgid "based on {{votesStdWithLabel}}"
+msgstr "na podstawie {{votesStdWithLabel}}"
+
+#: src/Models/Attribute.php:270
+msgid "{{votes}}"
+msgstr "{{votes}}"
+
+#: src/Models/Rating.php:109 src/Models/Rating.php:110
+#: src/Models/Rating.php:111
+msgid "Unknown"
+msgstr "Nieznany"
+
+#: src/Pages/Dashboard.php:28
+msgid "Dashboard"
+msgstr "TotalRating: Pulpit"
+
+#: src/Pages/Dashboard.php:29
+msgid "Widgets"
+msgstr "Widżety"
+
+#: src/Pages/Dashboard.php:30
+msgid "Templates"
+msgstr "Szablony"
+
+#: src/Pages/Dashboard.php:31
+msgid "Extensions"
+msgstr "Rozszerzenia"
+
+#: src/Pages/Dashboard.php:32
+msgid "Options"
+msgstr "Opcje"
+
+#: src/Pages/Dashboard.php:33
+msgid "Popup"
+msgstr "Wyskakujące okienko"
+
+#: src/Pages/Dashboard.php:34
+msgid "Support"
+msgstr "Wsparcie"
+
+#: src/Pages/Dashboard.php:35
+msgid "License"
+msgstr "Licencja"
+
+#. Plugin Name of the plugin/theme
+#: src/Pages/Dashboard.php:92
+msgid "TotalRating"
+msgstr "TotalRating"
+
+#: src/Pages/Dashboard.php:236
+msgid "Hey mate!"
+msgstr "Siema!"
+
+#: src/Pages/Dashboard.php:238
+msgid ""
+"We are delighted to see you started using TotalRating, \n"
+" TotalRating will impress you, we promise!"
+msgstr ""
+"Cieszymy się, że zacząłeś korzystać z TotalRating, \n"
+" TotalRating zrobi na Tobie wrażenie, obiecujemy!"
+
+#: src/Pages/Dashboard.php:244
+msgid "User Friendly"
+msgstr "Przyjazny dla użytkownika"
+
+#: src/Pages/Dashboard.php:246
+msgid "Easily create a rating widget within a few seconds."
+msgstr "Z łatwością utwórz widżet oceny w ciągu kilku sekund."
+
+#: src/Pages/Dashboard.php:252
+msgid "Elegant Design"
+msgstr "Elegancki Dizajn"
+
+#: src/Pages/Dashboard.php:254
+msgid "Achieve a better response rate using an attractive rating widget."
+msgstr ""
+"Osiągnij lepszy współczynnik odpowiedzi dzięki atrakcyjnemu widżetowi oceny."
+
+#: src/Pages/Dashboard.php:260
+msgid "Flexibility & Extensibility"
+msgstr "Elastyczność i rozszerzalność"
+
+#: src/Pages/Dashboard.php:262
+msgid "Create rating widgets that are highly flexible and extensible."
+msgstr "Twórz widżety ocen, które są bardzo elastyczne i rozszerzalne."
+
+#: src/Pages/Dashboard.php:269 src/Pages/Dashboard.php:305
+msgid "Get started"
+msgstr "Zaczynamy"
+
+#: src/Pages/Dashboard.php:271 src/Pages/Dashboard.php:307
+msgid "We've prepared some materials for you to ease your learning curve."
+msgstr "Przygotowaliśmy dla Ciebie materiały, które ułatwią Ci naukę."
+
+#: src/Pages/Dashboard.php:276
+msgid "How to create a widget"
+msgstr "Jak utworzyć Widżet"
+
+#: src/Pages/Dashboard.php:278
+msgid "Learn how to create a widget in no time using TotalRating."
+msgstr "Dowiedz się, jak błyskawicznie utworzyć widżet za pomocą TotalRating."
+
+#: src/Pages/Dashboard.php:285
+msgid "How to integrate a widget"
+msgstr "Jak zintegrować widżet"
+
+#: src/Pages/Dashboard.php:287
+msgid ""
+"Learn how to integrate the rating widget on different areas on your website."
+msgstr ""
+"Dowiedz się, jak zintegrować widżet oceny w różnych obszarach swojej witryny."
+
+#: src/Pages/Dashboard.php:294
+msgid "How to customize appearance"
+msgstr "Jak dostosować wygląd"
+
+#: src/Pages/Dashboard.php:296
+msgid ""
+"Learn how to customize the appearance of the rating widget to match your "
+"brand."
+msgstr "Dowiedz się, jak dostosować wygląd widżetu oceny do swojej marki."
+
+#: src/Pages/Dashboard.php:311
+msgid "Let you know about the upcoming features."
+msgstr "Poinformujemy Cię o nadchodzących funkcjach."
+
+#: src/Pages/Dashboard.php:312
+msgid "Inform you about important updates."
+msgstr "Poinformujemy Cię o ważnych aktualizacjach."
+
+#: src/Pages/Dashboard.php:313
+msgid "Adjust recommendations."
+msgstr "Dostosuj rekomendacje."
+
+#: src/Pages/Dashboard.php:314
+msgid "Adapt product settings."
+msgstr "Dostosuj ustawienia produktu."
+
+#: src/Pages/Dashboard.php:315
+msgid "Send you exclusive offers."
+msgstr "Wyślemy Ci ekskluzywne oferty."
+
+#: src/Pages/Dashboard.php:319
+msgid "Bravo! You did it!"
+msgstr "Brawo! Zrobiłeś to!"
+
+#: src/Pages/Dashboard.php:321
+msgid ""
+"You are all set to start making informed decisions! One last thing, we'd "
+"like to collect some anonymous usage information that will help us shape up "
+"TotalRating."
+msgstr ""
+"Wszystko gotowe, aby zacząć podejmować świadome decyzje! Na koniec "
+"chcielibyśmy zebrać anonimowe informacje o użytkowaniu, które pomogą nam "
+"kształtować TotalRating."
+
+#: src/Pages/Dashboard.php:325
+msgid "Make TotalRating stable and bug-free."
+msgstr "Spraw, aby TotalRating był stabilny i wolny od błędów."
+
+#: src/Pages/Dashboard.php:326
+msgid "Get an overview of environments."
+msgstr "Uzyskaj przegląd środowisk."
+
+#: src/Pages/Dashboard.php:327
+msgid "Optimize performance."
+msgstr "Zoptymalizuj wydajność."
+
+#: src/Pages/Dashboard.php:328
+msgid "Adjust default parameters."
+msgstr "Dostosuj domyślne parametry."
+
+#: src/Tasks/GetExpressions.php:34
+#, php-format
+msgid "%s vote"
+msgstr "%s głos"
+
+#: src/Tasks/GetExpressions.php:35
+#, php-format
+msgid "%s votes"
+msgstr "%s głosów"
+
+#: src/Tasks/GetExpressions.php:40
+msgid "Rated %g based on %s"
+msgstr "Ocena %g na podstawie %s"
+
+#: src/Tasks/GetExpressions.php:45
+#, php-format
+msgid "You can %s or %s your rating."
+msgstr "Możesz %s lub %s swojej oceny."
+
+#: src/Tasks/GetExpressions.php:55
+msgid "Change"
+msgstr "Zmień"
+
+#: src/Tasks/GetExpressions.php:60
+msgid "Revoke"
+msgstr "Cofnij"
+
+#: src/Tasks/GetExpressions.php:70
+msgid "Your comment"
+msgstr "Twój komentarz"
+
+#: src/Tasks/Rating/ExportCsv.php:54
+msgid "ID"
+msgstr "ID"
+
+#: src/Tasks/Rating/ExportCsv.php:55
+msgid "User"
+msgstr "Użytkownik"
+
+#: src/Tasks/Rating/ExportCsv.php:56
+msgid "Entity type"
+msgstr "Typ jednostki"
+
+#: src/Tasks/Rating/ExportCsv.php:57
+msgid "Entity name"
+msgstr "Nazwa jednostki"
+
+#: src/Tasks/Rating/ExportCsv.php:58
+msgid "Entity URL"
+msgstr "Adres URL jednostki"
+
+#: src/Tasks/Rating/ExportCsv.php:59
+msgid "Attribute"
+msgstr "Atrybut"
+
+#: src/Tasks/Rating/ExportCsv.php:60
+msgid "Point"
+msgstr "Punkt"
+
+#: src/Tasks/Rating/ExportCsv.php:61
+msgid "Value"
+msgstr "Wartość"
+
+#: src/Tasks/Rating/ExportCsv.php:63
+msgid "Created at"
+msgstr "Utworzono w"
+
+#: src/Tasks/Rating/ExportCsv.php:64
+msgid "Status"
+msgstr "Stan"
+
+#: src/Tasks/Rating/ExportCsv.php:65
+msgid "IP"
+msgstr "Adres IP"
+
+#: src/Tasks/Rating/ExportCsv.php:66
+msgid "User agent"
+msgstr "User agent"
+
+#: src/Tasks/Rating/ExportCsv.php:67
+msgid "Context"
+msgstr "Kontekst"
+
+#: src/Tasks/Widget/PreviewWidget.php:40
+msgid "Sorry you are not allowed to preview this widget."
+msgstr "Przepraszamy, nie masz uprawnień do podglądu tego widżetu."
+
+#: src/Tasks/Widget/RenderWidget.php:118
+#, php-format
+msgid "Powered by %s"
+msgstr "Obsługiwane przez %s"
+
+#: vendor/totalsuite/foundation/src/WordPress/Actions/Activation/Activate.php:46
+msgid "You have already activated your copy."
+msgstr "Twoja kopia została już aktywowana."
+
+#: vendor/totalsuite/foundation/src/WordPress/Actions/Activation/Activate.php:60
+msgid "You have successfully activated your copy."
+msgstr "Pomyślnie aktywowałeś swoją kopię."
+
+#: vendor/totalsuite/foundation/src/WordPress/Actions/Activation/Upgrade.php:43
+msgid "The product has been successfully upgraded."
+msgstr "Produkt został pomyślnie zaktualizowany."
+
+#: vendor/totalsuite/foundation/src/WordPress/Scheduler.php:41
+msgid "Every Minute"
+msgstr "Co minutę"
+
+#: vendor/totalsuite/foundation/src/WordPress/Scheduler.php:46
+msgid "Every 5 Minutes"
+msgstr "Co 5 minut"
+
+#: vendor/totalsuite/foundation/src/WordPress/Tasks/Activation/ActivateLicense.php:74
+#: vendor/totalsuite/foundation/src/WordPress/Tasks/Activation/ActivateLicense.php:80
+msgid "Activation error."
+msgstr "Błąd aktywacji."
+
+#: vendor/totalsuite/foundation/src/WordPress/Tasks/Activation/CheckLicense.php:40
+msgid "Something went wrong. Please try again."
+msgstr "Coś poszło nie tak. Spróbuj ponownie."
+
+#: vendor/totalsuite/foundation/src/WordPress/Tasks/Activation/CheckLicense.php:49
+msgid "License is inactive."
+msgstr "Licencja jest nieaktywna."
+
+#: vendor/totalsuite/foundation/src/WordPress/Tasks/Activation/SetupUpdateChecks.php:67
+#, php-format
+msgid "You’re receiving %s updates because you have an active license."
+msgstr "Otrzymujesz %s aktualizacji, ponieważ masz aktywną licencję."
+
+#: vendor/totalsuite/foundation/src/WordPress/Tasks/Activation/SetupUpdateChecks.php:76
+msgid "Renew your license."
+msgstr "Odnów licencję."
+
+#: vendor/totalsuite/foundation/src/WordPress/Tasks/Activation/SetupUpdateChecks.php:78
+#, php-format
+msgid "Your license has expired, to receive updates, please %s"
+msgstr "Twoja licencja wygasła, aby otrzymywać aktualizacje, prosimy o %s"
+
+#: vendor/totalsuite/foundation/src/WordPress/Tasks/Activation/UpgradeProduct.php:56
+msgid "You need to activate your product first."
+msgstr "Najpierw musisz aktywować swój produkt."
+
+#: vendor/totalsuite/foundation/src/WordPress/Tasks/Activation/UpgradeProduct.php:63
+msgid "The product you are trying to upgrade is not covered by your license."
+msgstr ""
+"Produkt, który próbujesz zaktualizować, nie jest objęty Twoją licencją."
+
+#: vendor/totalsuite/foundation/src/WordPress/Tasks/Activation/UpgradeProduct.php:69
+msgid "Something went wrong during the installation."
+msgstr "Coś poszło nie tak podczas instalacji."
+
+#: views/view.php:90
+msgid ""
+"This widget is disabled. You need to enable it to make it publicly "
+"accessible."
+msgstr ""
+"Ten widżet jest wyłączony. Musisz go włączyć, aby był publicznie dostępny."
+
+#. Plugin URI of the plugin/theme
+msgid "https://totalsuite.net/products/totalrating/"
+msgstr "https://totalsuite.net/products/totalrating/"
+
+#. Description of the plugin/theme
+msgid ""
+"TotalRating is a powerful WordPress plugin to create, integrate, and analyze "
+"ratings using highly customizable rating widgets. Convert collected ratings "
+"into valuable actions."
+msgstr ""
+"TotalRating to potężna wtyczka WordPress do tworzenia, integrowania i "
+"analizowania ocen za pomocą wysoce konfigurowalnych widżetów ocen. Zamień "
+"zebrane oceny na wartościowe działania."
+
+#. Author of the plugin/theme
+msgid "TotalSuite"
+msgstr "TotalSuite"
+
+#. Author URI of the plugin/theme
+msgid "https://totalsuite.net/"
+msgstr "https://totalsuite.net/"
+
+#~ msgid "out of"
+#~ msgstr "z"
+
+#~ msgid "ratings"
+#~ msgstr "oceny"
